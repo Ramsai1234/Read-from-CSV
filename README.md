@@ -27,9 +27,12 @@ Declare variable predictedCO2 equal to regr.predict with two arguments 33300, 13
 ### Step 11:
 Print variable predictedCO2
 ## PROGRAM:
-~
-#Developed by :- Koduru Sanath Kumar Reddy
-#Reference number:- 212221240024
+~~~
+#Developed by :- P.Ramsai
+#Reference number:- 212221240041
+~~~
+
+```
 import pandas as pd
 from sklearn import linear_model
 
@@ -42,7 +45,7 @@ print("Cofficients: ",regr.coef_)
 print("Intercept: ",regr.intercept_)
 predictedCO2 = regr.predict([[3300,1300]])
 print('Predicted co2 for the corresponding weight and volume',predictedCO2)
-~
+```
 
 ## OUTPUT:
 ![output](svs.png)
