@@ -33,7 +33,7 @@ print("Column",len(df.axes[0]))
 print("Row",len(df.axes[1]))
 ```
 ## OUTPUT:
-![output](saveetha.jpng)
+![output](sairam.jpeg)
 
 ## RESULT:
 Therefore the program is successfully executed to read csv file and access the data in it.
